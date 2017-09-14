@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE0DCB191F6B429E0084F320 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0DCB181F6B429E0084F320 /* AppDelegate.swift */; };
+		EE0DCB1B1F6B429E0084F320 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0DCB1A1F6B429E0084F320 /* ViewController.swift */; };
+		EE0DCB1E1F6B429E0084F320 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE0DCB1C1F6B429E0084F320 /* Main.storyboard */; };
+		EE0DCB201F6B429E0084F320 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE0DCB1F1F6B429E0084F320 /* Assets.xcassets */; };
+		EE0DCB231F6B429E0084F320 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE0DCB211F6B429E0084F320 /* LaunchScreen.storyboard */; };
+		EE0DCB2E1F6B429E0084F320 /* Password_HackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0DCB2D1F6B429E0084F320 /* Password_HackerTests.swift */; };
+		EE0DCB391F6B429E0084F320 /* Password_HackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0DCB381F6B429E0084F320 /* Password_HackerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE0DCB2A1F6B429E0084F320 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE0DCB0D1F6B429E0084F320 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE0DCB141F6B429E0084F320;
+			remoteInfo = "Password Hacker";
+		};
+		EE0DCB351F6B429E0084F320 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE0DCB0D1F6B429E0084F320 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE0DCB141F6B429E0084F320;
+			remoteInfo = "Password Hacker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE0DCB151F6B429E0084F320 /* Password Hacker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Password Hacker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE0DCB181F6B429E0084F320 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE0DCB1A1F6B429E0084F320 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EE0DCB1D1F6B429E0084F320 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE0DCB1F1F6B429E0084F320 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE0DCB221F6B429E0084F320 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE0DCB241F6B429E0084F320 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE0DCB291F6B429E0084F320 /* Password HackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Password HackerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE0DCB2D1F6B429E0084F320 /* Password_HackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Password_HackerTests.swift; sourceTree = "<group>"; };
+		EE0DCB2F1F6B429E0084F320 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE0DCB341F6B429E0084F320 /* Password HackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Password HackerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE0DCB381F6B429E0084F320 /* Password_HackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Password_HackerUITests.swift; sourceTree = "<group>"; };
+		EE0DCB3A1F6B429E0084F320 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE0DCB121F6B429E0084F320 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE0DCB261F6B429E0084F320 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE0DCB311F6B429E0084F320 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE0DCB0C1F6B429E0084F320 = {
+			isa = PBXGroup;
+			children = (
+				EE0DCB171F6B429E0084F320 /* Password Hacker */,
+				EE0DCB2C1F6B429E0084F320 /* Password HackerTests */,
+				EE0DCB371F6B429E0084F320 /* Password HackerUITests */,
+				EE0DCB161F6B429E0084F320 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE0DCB161F6B429E0084F320 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE0DCB151F6B429E0084F320 /* Password Hacker.app */,
+				EE0DCB291F6B429E0084F320 /* Password HackerTests.xctest */,
+				EE0DCB341F6B429E0084F320 /* Password HackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE0DCB171F6B429E0084F320 /* Password Hacker */ = {
+			isa = PBXGroup;
+			children = (
+				EE0DCB181F6B429E0084F320 /* AppDelegate.swift */,
+				EE0DCB1A1F6B429E0084F320 /* ViewController.swift */,
+				EE0DCB1C1F6B429E0084F320 /* Main.storyboard */,
+				EE0DCB1F1F6B429E0084F320 /* Assets.xcassets */,
+				EE0DCB211F6B429E0084F320 /* LaunchScreen.storyboard */,
+				EE0DCB241F6B429E0084F320 /* Info.plist */,
+			);
+			path = "Password Hacker";
+			sourceTree = "<group>";
+		};
+		EE0DCB2C1F6B429E0084F320 /* Password HackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE0DCB2D1F6B429E0084F320 /* Password_HackerTests.swift */,
+				EE0DCB2F1F6B429E0084F320 /* Info.plist */,
+			);
+			path = "Password HackerTests";
+			sourceTree = "<group>";
+		};
+		EE0DCB371F6B429E0084F320 /* Password HackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE0DCB381F6B429E0084F320 /* Password_HackerUITests.swift */,
+				EE0DCB3A1F6B429E0084F320 /* Info.plist */,
+			);
+			path = "Password HackerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE0DCB141F6B429E0084F320 /* Password Hacker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE0DCB3D1F6B429E0084F320 /* Build configuration list for PBXNativeTarget "Password Hacker" */;
+			buildPhases = (
+				EE0DCB111F6B429E0084F320 /* Sources */,
+				EE0DCB121F6B429E0084F320 /* Frameworks */,
+				EE0DCB131F6B429E0084F320 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Password Hacker";
+			productName = "Password Hacker";
+			productReference = EE0DCB151F6B429E0084F320 /* Password Hacker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE0DCB281F6B429E0084F320 /* Password HackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE0DCB401F6B429E0084F320 /* Build configuration list for PBXNativeTarget "Password HackerTests" */;
+			buildPhases = (
+				EE0DCB251F6B429E0084F320 /* Sources */,
+				EE0DCB261F6B429E0084F320 /* Frameworks */,
+				EE0DCB271F6B429E0084F320 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE0DCB2B1F6B429E0084F320 /* PBXTargetDependency */,
+			);
+			name = "Password HackerTests";
+			productName = "Password HackerTests";
+			productReference = EE0DCB291F6B429E0084F320 /* Password HackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE0DCB331F6B429E0084F320 /* Password HackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE0DCB431F6B429E0084F320 /* Build configuration list for PBXNativeTarget "Password HackerUITests" */;
+			buildPhases = (
+				EE0DCB301F6B429E0084F320 /* Sources */,
+				EE0DCB311F6B429E0084F320 /* Frameworks */,
+				EE0DCB321F6B429E0084F320 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE0DCB361F6B429E0084F320 /* PBXTargetDependency */,
+			);
+			name = "Password HackerUITests";
+			productName = "Password HackerUITests";
+			productReference = EE0DCB341F6B429E0084F320 /* Password HackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE0DCB0D1F6B429E0084F320 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Maho Misumi";
+				TargetAttributes = {
+					EE0DCB141F6B429E0084F320 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					EE0DCB281F6B429E0084F320 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EE0DCB141F6B429E0084F320;
+					};
+					EE0DCB331F6B429E0084F320 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EE0DCB141F6B429E0084F320;
+					};
+				};
+			};
+			buildConfigurationList = EE0DCB101F6B429E0084F320 /* Build configuration list for PBXProject "Password Hacker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE0DCB0C1F6B429E0084F320;
+			productRefGroup = EE0DCB161F6B429E0084F320 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE0DCB141F6B429E0084F320 /* Password Hacker */,
+				EE0DCB281F6B429E0084F320 /* Password HackerTests */,
+				EE0DCB331F6B429E0084F320 /* Password HackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE0DCB131F6B429E0084F320 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE0DCB231F6B429E0084F320 /* LaunchScreen.storyboard in Resources */,
+				EE0DCB201F6B429E0084F320 /* Assets.xcassets in Resources */,
+				EE0DCB1E1F6B429E0084F320 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE0DCB271F6B429E0084F320 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE0DCB321F6B429E0084F320 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE0DCB111F6B429E0084F320 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE0DCB1B1F6B429E0084F320 /* ViewController.swift in Sources */,
+				EE0DCB191F6B429E0084F320 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE0DCB251F6B429E0084F320 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE0DCB2E1F6B429E0084F320 /* Password_HackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE0DCB301F6B429E0084F320 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE0DCB391F6B429E0084F320 /* Password_HackerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE0DCB2B1F6B429E0084F320 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE0DCB141F6B429E0084F320 /* Password Hacker */;
+			targetProxy = EE0DCB2A1F6B429E0084F320 /* PBXContainerItemProxy */;
+		};
+		EE0DCB361F6B429E0084F320 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE0DCB141F6B429E0084F320 /* Password Hacker */;
+			targetProxy = EE0DCB351F6B429E0084F320 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE0DCB1C1F6B429E0084F320 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE0DCB1D1F6B429E0084F320 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE0DCB211F6B429E0084F320 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE0DCB221F6B429E0084F320 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE0DCB3B1F6B429E0084F320 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE0DCB3C1F6B429E0084F320 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE0DCB3E1F6B429E0084F320 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Password Hacker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "maho.com.Password-Hacker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EE0DCB3F1F6B429E0084F320 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Password Hacker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "maho.com.Password-Hacker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EE0DCB411F6B429E0084F320 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Password HackerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "maho.com.Password-HackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Password Hacker.app/Password Hacker";
+			};
+			name = Debug;
+		};
+		EE0DCB421F6B429E0084F320 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Password HackerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "maho.com.Password-HackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Password Hacker.app/Password Hacker";
+			};
+			name = Release;
+		};
+		EE0DCB441F6B429E0084F320 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Password HackerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "maho.com.Password-HackerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Password Hacker";
+			};
+			name = Debug;
+		};
+		EE0DCB451F6B429E0084F320 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Password HackerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "maho.com.Password-HackerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Password Hacker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE0DCB101F6B429E0084F320 /* Build configuration list for PBXProject "Password Hacker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE0DCB3B1F6B429E0084F320 /* Debug */,
+				EE0DCB3C1F6B429E0084F320 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE0DCB3D1F6B429E0084F320 /* Build configuration list for PBXNativeTarget "Password Hacker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE0DCB3E1F6B429E0084F320 /* Debug */,
+				EE0DCB3F1F6B429E0084F320 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EE0DCB401F6B429E0084F320 /* Build configuration list for PBXNativeTarget "Password HackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE0DCB411F6B429E0084F320 /* Debug */,
+				EE0DCB421F6B429E0084F320 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EE0DCB431F6B429E0084F320 /* Build configuration list for PBXNativeTarget "Password HackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE0DCB441F6B429E0084F320 /* Debug */,
+				EE0DCB451F6B429E0084F320 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE0DCB0D1F6B429E0084F320 /* Project object */;
+}
